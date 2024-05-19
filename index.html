@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="./ART.ech Logo.png" alt="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main_container">
+        <h3>Rock, Paper and Scissors Game</h3>
+        <img src="https://www.seekpng.com/png/detail/111-1114347_rock-paper-scissors-entertainment-rock-paper-scissors-png.png" alt="Rock Paper Scissors Entertainment - Rock Paper Scissors Png@seekpng.com" id="game_logo">
+        <div class="game_images">
+            <div class="player_1">
+                <div class="player_1_choice">XX</div>
+                <label for="player_1_choice" id="player_1_choice">Player 1</label>
+                <div id="score_player1">0</div>
+            </div>
+            <div class="player_computer">
+                <div class="player_computer_choice">XX</div>
+                <label for="player_computer_choice" id="player_computer_choice">Computer</label>
+                <div id="score_player2">0</div>
+            </div>
+        </div>
+        <div class="choices">
+            <button id="rock"><img src="./rock.png" alt="rock" id="rock_image">Rock</button>
+            <button id="paper"><img src="./paper.png" alt="paper" id="paper_image">Paper</button>
+            <button id="scissors"><img src="./scissors.png" alt="" id="scissors_image">Scissors</button>
+        </div>
+    </div>
+
+    <footer>
+        ART.ech &copy 2022 | All Rights Reserved
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
